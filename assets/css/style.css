@@ -14,7 +14,6 @@
     color: #999999;
 }
 
-
 .custom-nav a {
     font-size: 2rem;
 }
@@ -22,19 +21,19 @@
 .custom-nav >li,
 .social-media li {
     display: inline;
-} 
+}
 
-.custom-navbar-text  {
+.custom-navbar-text {
     font-size: 4rem;
     background-color: #4EAAA4;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    border:1px solid #DDDDDD;
+    border: 1px solid #DDDDDD;
 }
 
 .custom-content {
     border: 1px solidc #4EAAA4;
-    margin-top:4rem;
+    margin-top: 4rem;
 }
 
 .custom-content h1 {
@@ -45,7 +44,7 @@
 
 .custom-content img {
     float: left;
-    padding: 1rem 1rem 1rem ;
+    padding: 1rem 1rem 1rem;
     width: 26rem;
     height: 22rem;
 }
@@ -59,33 +58,30 @@
 }
 
 .social-media img {
-   width: 4.57142857rem;
-   height: 4.57142857rem;
+    width: 4.57142857rem;
+    height: 4.57142857rem;
 }
 
 .social-media ul {
     position: relative;
     left: 6rem;
     padding-top: 1rem;
-    margin-bottom: 18px;   
+    margin-bottom: 18px;
     padding-left: 0px;
     width: 157px;
-
 }
 
 .social-media h3 {
     position: relative;
     left: 4rem;
-    border-bottom: 1px solid #DDDDDD;    
+    border-bottom: 1px solid #DDDDDD;
     padding-bottom: 4px;
     width: 200px;
-
 }
 
-.social-media  {
+.social-media {
     position: relative;
 }
-
 
 body {
     background-image: url(../image/cork-wallet.png);
@@ -103,5 +99,13 @@ body {
 }
 
 .footer p {
-        margin: 10px 0 10px;
+    margin: 10px 0 10px;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+form {  
+    height: 491px;
 }
