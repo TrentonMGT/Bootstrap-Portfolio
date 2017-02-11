@@ -1,300 +1,107 @@
-ul {
-    list-style-type: none;
+.custom-row-one,
+.social-media,
+.custom-content {
+    background: #fff;
 }
 
-#social-media-title {
-    margin-left: 44px;
-    color: #fff;
+.social-media h3,
+.custom-content h1 {
+    color: #4EAAA4;
 }
+
+.custom-nav a,
+.custom-content p {
+    color: #999999;
+}
+
+
+.custom-nav a {
+    font-size: 2rem;
+}
+
+.custom-nav >li,
+.social-media li {
+    display: inline;
+} 
+
+.custom-navbar-text  {
+    font-size: 4rem;
+    background-color: #4EAAA4;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border:1px solid #DDDDDD;
+}
+
+.custom-content {
+    border: 1px solidc #4EAAA4;
+    margin-top:4rem;
+}
+
+.custom-content h1 {
+    color: #4EAAA4;
+    margin-left: 1rem;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.custom-content img {
+    float: left;
+    padding: 1rem 1rem 1rem ;
+    width: 26rem;
+    height: 22rem;
+}
+
+.custom-content p {
+    line-height: 3rem;
+}
+
+.social-media {
+    margin-top: 4rem;
+}
+
+.social-media img {
+   width: 4.57142857rem;
+   height: 4.57142857rem;
+}
+
+.social-media ul {
+    position: relative;
+    left: 6rem;
+    padding-top: 1rem;
+    margin-bottom: 18px;   
+    padding-left: 0px;
+    width: 157px;
+
+}
+
+.social-media h3 {
+    position: relative;
+    left: 4rem;
+    border-bottom: 1px solid #DDDDDD;    
+    padding-bottom: 4px;
+    width: 200px;
+
+}
+
+.social-media  {
+    position: relative;
+}
+
 
 body {
-    width: 650px;
-}
-
-#nav-ul a {
-    display: inline;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 110%;
-    color: #999999;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-}
-
-#nav-ul a:hover {
-    border: 1px solid #4EAAA4;
-    color: #999999;
-    padding-bottom: 26px;
-}
-
-#nav-ul a:active {
-    background-color: #4EAAA4;
-    border: 1px solid #4EAAA4;
-    color: #fff;
-    padding-bottom: 26px;
-}
-
-#wrapper {
     background-image: url(../image/cork-wallet.png);
-    width: 196%;
-    height: 1000px;
-}
-
-#header-logo {
-    overflow: hidden;
-    background-color: #fff;
-    position: fixed;
-    height: 84px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    z-index: 10000;
-}
-
-#name {
-    position: relative;
-    top: -29px;
-    left: 23%;
-    color: #fff;
-    background-color: #4EAAA4;
-    width: 355px;
-    height: 52px;
-    text-align: center;
-    font-size: 283%;
-    padding-bottom: 18px;
-    padding-top: 18px;
-}
-
-#nav-bar {
-    position: relative;
-    background-color: #fff;
-    float: right;
-    margin-right: 77px;
-    top: -127px;
-    bottom: 218px;
-}
-
-#nav-li {
-    float: left;
-}
-
-#social-media {
-    position: relative;
-    left: -5%;
-    right: 20%;
-    bottom: 10%;
-    top: 80px;
-    border: 2px solid #DDD;
-    width: 237px;
-    height: 179px;
-    float: right;
-    margin-top: 23px;
-    background-color: #fff;
-}
-
-li #social-media {
-    margin-right: ;
-}
-
-#bio {
-    position: relative;
-    left: 23%;
-    right: 1%;
-    top: 104px;
-    bottom: 1%;
-    background-color: #fff;
-    border: gray;
-    width: 536px;
-    height: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 10px;
-}
-
-.porfolio-img {
-    margin: 3px 18px 11px 0px;
-    width: 273px;
-    height: 220px;
-    float: left;
-}
-
-.about-me {
-    color: #4EAAA4;
-    position: relative;
-    left: 0px;
-    right: 1px;
-    top: 12px;
-    bottom: 1px;
-    width: 516px;
-    height: 47px;
-    border-bottom: 2px solid #DDDDDD;
-    text-align: initial;
-}
-
-footer {
-    background: #666;
-    overflow: hidden;
-    background-color: #fff;
-    position: fixed;
-    height: 80px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    z-index: 10000;
-    background-color: #666666;
-    border-top: 10px solid #4EAAA4;
-    text-align: center;
-}
-
-p#footer {
-    margin-top: 26px;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    font-size: small;
-}
-
-#social-media a {
-    display: inline;
-    padding: 0px;
-    text-decoration: none;
-    font-size: 110%;
-    color: #999999;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
     margin: 0;
     padding: 0;
 }
 
-#social-media ul {
-    padding: 0;
-    margin-right: 14px;
-}
-
-#social-media li {
-    border-top: 2px solid #DDDDDD;
-    margin: 2px 6px 0 15px;
-    padding-top: 12px;
-}
-
-h3#social-media-title {
-    color: #4EAAA4;
-}
-
-
-/*Contact html*/
-
-.contact-form {
-    position: relative;
-    left: 23%;
-    right: 1%;
-    top: 104px;
-    bottom: 1%;
-    background-color: #fff;
-    border: gray;
-    width: 536px;
-    height: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 10px;
-}
-
-.contact-form input label {
-    position: relative;
-    left: 10px;
-}
-
-#fname,
-#lname,
-#email {
-    width: 500px;
-    height: 30px;
-}
-
-.contact-form h1,
-.portfolio h1 {
-    color: #4EAAA4;
-    position: relative;
-    left: 0px;
-    right: 1px;
-    top: 12px;
-    bottom: 1px;
-    width: 516px;
-    height: 47px;
-    border-bottom: 2px solid #DDDDDD;
-    text-align: initial;
-}
-
-.contact-form input {
-    border: 2px solid #DDDDDD;
-}
-
-.contact-form label {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 10px;
-    font-weight: lighter;
-}
-
-.contact-form textarea {
-    border-bottom: 2px solid #DDDDDD;
-}
-
-.contact-form input[type=submit] {
-    width: 25%;
-    background-color: #4EAAA4;
-    color: #DDDDDD;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: medium;
-}
-
-#message {
-    border: 2px solid #DDDDDD;
-}
-
-
-/*Portfolio*/
-
-.img {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 248px;
-    height: 190px;
-}
-
-.img:hover {
-    border: 1px solid #4EAAA4;
-}
-
-.desc {
-    position: relative;
-    top: -95px;
-    bottom: 2px;
-    left: 0px;
-    right: 4px;
-    padding: 15px;
-    text-align: center;
-    background-color: #4EAAA4;
+.footer {
+    background: #666666;
     color: #fff;
+    text-align: center;
+    border-top: 2rem solid #4EAAA4;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
 }
 
-.portfolio {
-    position: relative;
-    left: 23%;
-    right: 1%;
-    top: 104px;
-    bottom: 1%;
-    background-color: #fff;
-    border: gray;
-    width: 536px;
-    height: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 648px;
+.footer p {
+        margin: 10px 0 10px;
 }
